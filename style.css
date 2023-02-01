@@ -1,0 +1,127 @@
+/* This will style the body element */
+body {
+    /* "Department of Coffee and Social Affairs" by MIxhael Dales is licensed under CC BY-NC 2.0*/
+    background-image: url(images/departmentOfCoffee.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* This will style the wrapper class to center the content */
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+/* This will style the header where the logo will go */
+header {
+
+    min-height: 120px;
+}
+
+.logoImage {
+    height: 118px;
+}
+
+/* This will style the nav box and link to portledge website */
+nav {
+
+    min-height: 45px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+/* Style the links to the other pages in the nav */
+a {
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Compund Selector - target links insid of the nav */
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgba(43, 183, 226, 0.377)
+}
+
+
+
+
+/* This will style the main */
+main {
+
+    min-height: 400px;
+
+}
+
+/* Compound Selector */
+main h1 {
+    font-size: 85px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px chocolate;
+    text-align: center;
+}
+
+/* Do This: set the font size to 50px, change the color to white, pick a font family of your choice, add a text shadow */
+main h2 {
+    font-size: 50px;
+    color: #f46;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+/* Do This: set the size to 18px, change the color to rgba(249,111, 93,1), change the font family, and also add a text shadow */
+main p {
+    font-size: 18px;
+    color: rgba(249, 111, 93, 1);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+}
+
+.myButton {
+    text-decoration: none;
+    padding: 20px 40px;
+    border: 1px solid black;
+    background-color: chartreuse;
+    color: blueviolet;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.map {
+    margin-top: 32px;
+    text-align: center;
+}
+
+footer {
+    min-height: 75px;
+}
+
+
+footer p {
+    color: whitesmoke;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+
+.Contacth1 {
+    text-align: center;
+    font-size: 60px;
+    color: blue;
+}
+
+.Contactp {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: cyan;
+}
